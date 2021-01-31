@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     sessions: 'users/sessions'
   }
-  root :to => "accounts#index"
+  root :to => "dashboard#index"
 end
